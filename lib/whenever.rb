@@ -2,7 +2,7 @@ require 'chronic'
 
 # Hoping to load Rails' Rakefile
 begin
-  load 'Rakefile'
+  load "#{Rails.root}/Rakefile"
 rescue LoadError
   nil
 end
